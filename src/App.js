@@ -1,9 +1,11 @@
-import styled from "styled-components";
-
-const Wrap = styled.div``;
+import Router from "./shared/Router";
 
 function App() {
-  return <Wrap></Wrap>;
+  return (
+    <>
+      <Router />
+    </>
+  );
 }
 
 export default App;
